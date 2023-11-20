@@ -1,0 +1,83 @@
+header {
+  position: relative;
+}
+header .swiper {
+  width: 100vw;
+  height: 100vh;
+}
+header .swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+header .swiper .slide1 {
+  background-image: url("../img/fv-bgi_01@2x.jpg");
+  background-size: cover;
+}
+header .swiper .slide2 {
+  background-image: url("../img/fv-bgi_02@2x.jpg");
+  background-size: cover;
+}
+header .swiper .slide3 {
+  background-image: url("../img/fv-bgi_03@2x.jpg");
+  background-size: cover;
+}
+header .header-navi {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  top: 1.3194444444vw;
+  left: 0;
+  width: 100%;
+  height: 2.5vw;
+  padding: 0 8.3333333333vw;
+}
+header .header-navi .header-navi-left {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.8055555556vw;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+header .header-navi .header-navi-right {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1111111111vw;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+header .header-navi .header-navi-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-navi .header-navi-right ul li {
+  padding-left: 2.0833333333vw;
+}
+header h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-size: 4.8611111111vw;
+  letter-spacing: 0.05em;
+  line-height: 3.4722222222vw;
+  color: #fff;
+  position: absolute;
+  top: 28.4027777778vw;
+  left: 8.3333333333vw;
+}
+header h2 {
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  font-size: 2.7777777778vw;
+  letter-spacing: 0.05em;
+  line-height: 3.4722222222vw;
+  color: #fff;
+  position: absolute;
+  top: 37.1527777778vw;
+  left: 11.1111111111vw;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}/*# sourceMappingURL=style.css.map */
