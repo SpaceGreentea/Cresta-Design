@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex , nofollow">
+  <title>Cresta Design</title>
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href=“https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Serif+JP&display=swap” rel=“stylesheet”>
+  <link rel="shortcut icon" href="img/favicon.jpg">
+</head>
+
+<body>
+  <header class="contact-bg">
+    <div class="contact-header-navi">
+      <h3 class="contact-header-navi-left"><a href="index.html">Cresta Design</a></h3>
+      <div class="contact-header-navi-right">
+        <ul>
+          <li><a href="index.html#concept-link">Concept</a></li>
+          <li><a href="index.html#works-link">Works</a></li>
+          <li><a href="index.html#service-link">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <h2>Contact</h2>
+    <h1>Contact us</h1>
+    <!-- ハンバーガーメニュー -->
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- ハンバーガーメニューのナビゲーション -->
+    <nav id="hamburger-navigation">
+      <ul class="hamburger-navigation-sections">
+        <li><a href="index.html#concept-link" class="hamburger-menu-section">Concept</a></li>
+        <li><a href="index.html#works-link" class="hamburger-menu-section">Works</a></li>
+        <li><a href="index.html#service-link" class="hamburger-menu-section">Service</a></li>
+        <li><a href="contact.html" class="hamburger-menu-section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <p class="form-title">お問い合わせ内容</p>
+      <div class="form-checkbox">
+        <div class="checkbox-item"><input id="data" type="checkbox" name="checkbox" value="data"
+            autocomplete="off"><label for="data">資料請求</label>
+        </div>
+        <div class="checkbox-item"><input id="advice" type="checkbox" name="checkbox" value="advice"
+            autocomplete="off"><label for="advice">お電話でのご相談を希望</label>
+        </div>
+        <div class="checkbox-item"><input id="reservation" type="checkbox" name="checkbox" value="reservation"
+            autocomplete="off"><label for="reservation">申し込み</label>
+        </div>
+      </div>
+      <div class="person-name">
+        <label for="person_name">担当者名</label><input id="person_name" type="text" name="person_name" placeholder="田中太郎"
+          autocomplete="off">
+      </div>
+      <div class="telnumber">
+        <label for="tel">電話番号</label><input id="tel" type="tel" name="tel" placeholder="070-YYYY-XXXX"
+          autocomplete="off">
+      </div>
+      <div class="mailadress">
+        <label for="mail">メールアドレス</label><input id="mail" type="email" name="mail" placeholder="aaabbbccc@.xyz.com"
+          autocomplete="off">
+      </div>
+      <div class="others">
+        <label for="comment">その他</label><textarea name="comment" id="comment"
+          placeholder="気になること等ございましたら、お気軽にご記入下さい。"></textarea>
+      </div>
+      <button class="submit-button">
+        <input type="submit" value="submit">
+      </button>
+    </form>
+  </main>
+  <footer class="contact-footer">
+    &copy; cresta.design all rights reserved
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/contact.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,24 @@
 @charset "utf-8";
 
 @use 'header';
+@use 'concept';
+@use 'works';
+@use 'service';
+@use 'contact';
+@use 'footer';
 
 html {
   font-size: 62.5%; /* 10px */
+  // outline: 2px solid blue; はみ出ているエリアの確認用
 }
+
+
+
+// body {
+//   height: 100vw; //ヘッダーナビ　スクロール背景色変更の確認用
+// }
+
+// footer { //ヘッダーナビ　スクロール背景色変更の確認用
+//   height: 100vw;
+//   background-color: palevioletred;
+// }

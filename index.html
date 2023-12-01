@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <link href=“https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Serif+JP&display=swap” rel=“stylesheet”>
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.jpg">
 </head>
 
 <body>
@@ -20,75 +20,114 @@
       <!-- スライド要素を包む要素 -->
       <div class="swiper-wrapper">
         <!-- 各スライド -->
-        <div class="swiper-slide slide1">
-          <div class="header-navi">
-            <h3 class="header-navi-left">Cresta Design</h3>
-            <div class="header-navi-right">
-              <ul>
-                <li>Concept</li>
-                <li>Service</li>
-                <li>Works</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </div>
-          <h1>Design for Smile.</h1>
-          <h2>快適なオフィスをデザインする</h2>
-        </div>
-        <div class="swiper-slide slide2">
-          <div class="header-navi">
-            <h3 class="header-navi-left">Cresta Design</h3>
-            <div class="header-navi-right">
-              <ul>
-                <li>Concept</li>
-                <li>Service</li>
-                <li>Works</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </div>
-          <h1>Design for Smile.</h1>
-          <h2>快適なオフィスをデザインする</h2>
-        </div>
-        <div class="swiper-slide slide3">
-          <div class="header-navi">
-            <h3 class="header-navi-left">Cresta Design</h3>
-            <div class="header-navi-right">
-              <ul>
-                <li>Concept</li>
-                <li>Service</li>
-                <li>Works</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </div>
-          <h1>Design for Smile.</h1>
-          <h2>快適なオフィスをデザインする</h2>
-        </div>
+        <div class="swiper-slide slide1"></div>
+        <div class="swiper-slide slide2"></div>
+        <div class="swiper-slide slide3"></div>
       </div>
-    </div>
-
-
-    <!-- <div class="header-navi">
-      <h3 class="header-navi-left">Cresta Design</h3>
-      <div class="header-navi-right">
-        <ul>
-          <li>Concept</li>
-          <li>Service</li>
-          <li>Works</li>
-          <li>Contact</li>
+      <!-- スライドの上の文字 -->
+      <div class="swiper-text">
+        <div class="header-navi">
+          <h3 class="header-navi-left"><a href="index.html">Cresta Design</a></h3>
+          <div class="header-navi-right">
+            <ul>
+              <li><a href="#concept-link">Concept</a></li>
+              <li><a href="#works-link">Works</a></li>
+              <li><a href="#service-link">Service</a></li>
+              <li><a href="#contact-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <h1>Design for Smile.</h1>
+        <h2>快適なオフィスをデザインする</h2>
+      </div>
+      <!-- ハンバーガーメニュー -->
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- ハンバーガーメニューのナビゲーション -->
+      <nav id="hamburger-navigation">
+        <ul class="hamburger-navigation-sections">
+          <li><a href="#concept-link" class="hamburger-menu-section">Concept</a></li>
+          <li><a href="#works-link" class="hamburger-menu-section">Works</a></li>
+          <li><a href="#service-link" class="hamburger-menu-section">Service</a></li>
+          <li><a href="#contact-link" class="hamburger-menu-section">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <h1>Design for Smile.</h1>
-    <h2>快適なオフィスをデザインする</h2> -->
-
-
   </header>
   <main>
+    <!-- CONCEPTエリア -->
+    <div class="concept-area" id="concept-link">
+      <div class="concept-title">
+        <h2>CONCEPT</h2>
+        <div class="concept-title-line"></div>
+      </div>
+      <h3>“働きたくなる空間”をデザインすることで人々を幸せにする。</h3>
+      <div class="concept-explain">
+        <p>私たちは、オフィスに特化した空間デザイン専門としております。その理由は、「働きたくなる空間で仕事ができれば多くの人を幸せにできるのではないか」と考えるためです。そんな想いの株式会社Cresta
+          Designだからこそできる空間デザインを提供させていただきます。</p>
+        <img src="./img/concept-image@2x.jpg" alt="コンセプトイメージ写真">
+      </div>
+      <h1>Our Concept</h1>
+    </div>
+    <!-- Worksエリア -->
+    <div class="works-area" id="works-link">
+      <div class="works-title">
+        <h2>Works</h2>
+        <div class="works-title-line"></div>
+      </div>
+      <div class="works-contents">
+        <div class="works-picture">
+          <img src="./img/card-img01@2x.jpg" alt="イメージカード1">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+        <div class="works-picture">
+          <img src="./img/card-img02@2x.jpg" alt="イメージカード2">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+        <div class="works-picture">
+          <img src="./img/card-img03@2x.jpg" alt="イメージカード3">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+      </div>
+      <button class="works-button">
+        <a href="index.html">View more</a>
+      </button>
+      <h1>Our Works</h1>
+    </div>
+    <!-- Serviceエリア -->
+    <div class="service-area" id="service-link">
+      <div class="service-title">
+        <h2>Service</h2>
+        <div class="service-title-line"></div>
+      </div>
+      <div class="service-contents">
+        <div class="service-picture1 picture-size picture-title">Hearing</div>
+        <div class="service-picture2 picture-size picture-title">Planning</div>
+        <div class="service-picture3 picture-size picture-title">Direction</div>
+      </div>
+      <h1>Our Service</h1>
+    </div>
+    <!-- Contactエリア -->
+    <div class="contact-area" id="contact-link">
+      <div class="contact-title">
+        <h2>Contact</h2>
+        <div class="contact-title-line"></div>
+      </div>
+      <p>お気軽にご相談ください。</p>
+      <button class="contact-button">
+        <a href="contact.html">Contact</a>
+      </button>
+      <h1>Contact us</h1>
+    </div>
   </main>
-  <footer>
+  <!-- footer -->
+  <footer class="index-footer">
+    &copy; cresta.design all rights reserved
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
